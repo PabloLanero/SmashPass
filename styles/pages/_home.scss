@@ -1,8 +1,7 @@
+*{
+    font-family: "Gantari";
+}
 .article__landing{
-    background-image: url("img/landing/image.png") ;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
 }
@@ -15,10 +14,16 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+    margin-top: 10px;
 }
 
 .div__caracteristica div{
     max-width: 200px;
+}
+
+.div__caracteristica img{
+    width: 25%;
+    height: 25%; 
 }
 
 .article__empezar{
@@ -27,4 +32,7 @@
     display: flex;
     flex-direction: column;
     height: 30%;
+    button{
+        margin-bottom: 15px;
+    }
 }
