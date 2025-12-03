@@ -202,4 +202,72 @@ article {
   position: fixed;
 }
 
+.header__password nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: static;
+  z-index: 3;
+}
+.header__password nav a {
+  padding: 10px;
+}
+.header__password nav a img {
+  width: 25%;
+  height: 100%;
+  max-width: 150px;
+  display: block;
+}
+
+.main__password {
+  text-align: center;
+}
+.main__password section article {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 7%;
+  background-color: #2D2D2D;
+  border-radius: 25px;
+  color: white;
+}
+.main__password section article div {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+}
+.main__password section article div img {
+  border-radius: 20px;
+  background-color: #C8C8C8;
+  min-width: 35px;
+  min-width: 35px;
+  width: 20%;
+  height: 20%;
+}
+.main__password section article div div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 75%;
+}
+.main__password section article div div p:first-of-type {
+  color: #9C9C9C;
+}
+.main__password section article div div a {
+  color: #137FED;
+}
+.main__password section article hr {
+  width: 75%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.p__password {
+  font-size: 2em;
+  letter-spacing: 5px;
+  line-height: 50%;
+}
+
 /*# sourceMappingURL=index.css.map */
