@@ -1,0 +1,12 @@
+input {
+    border-radius: 25px;
+    background-color: #C9C9C9;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    border:none;
+}
+input::placeholder{
+    color:white;
+    margin-left: 5px;
+}

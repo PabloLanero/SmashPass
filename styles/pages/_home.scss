@@ -15,15 +15,13 @@
     justify-content: space-evenly;
     width: 100%;
     margin-top: 10px;
-}
-
-.div__caracteristica div{
-    max-width: 200px;
-}
-
-.div__caracteristica img{
-    width: 25%;
-    height: 25%; 
+    div {
+        max-width: 200px;
+    }
+    img{
+        width: 25%;
+        height: 25%; 
+    }
 }
 
 .article__empezar{

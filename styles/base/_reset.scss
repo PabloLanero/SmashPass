@@ -30,9 +30,7 @@ ul[role='list'], ol[role='list'] {
 }
 
 /* Asegura que la herencia de fuentes sea consistente para los elementos de formulario y código */
-input, button, textarea, select {
-  font: inherit;
-}
+
 
 /* Aislamiento de texto para mejorar la renderización */
 p, h1, h2, h3, h4, h5, h6 {
