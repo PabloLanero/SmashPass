@@ -15,44 +15,36 @@ p {
   font-size: 16px;
 }
 
-/* Un reset CSS moderno (basado en Andy Bell/Elad Shechter) */
 *,
 *::before,
 *::after {
-  box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el ancho/alto del elemento */
+  box-sizing: border-box;
 }
 
-/* Elimina el margen predeterminado del body */
 body {
   margin: 0;
-  line-height: 1.5; /* Mejora la legibilidad */
-  -webkit-font-smoothing: antialiased; /* Mejora el renderizado de fuentes en WebKit */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Manejo de elementos multimedia para que sean responsive por defecto */
 img, picture, svg, video, canvas {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* Elimina márgenes en elementos comunes (h1, p, ul, etc.) */
 p, h1, h2, h3, h4, h5, h6, ul, ol, figure, blockquote, dl, dd {
   margin: 0;
 }
 
-/* Elimina los estilos de lista predeterminados para ul y ol con un rol de lista explícito */
 ul[role=list], ol[role=list] {
   list-style: none;
 }
 
-/* Asegura que la herencia de fuentes sea consistente para los elementos de formulario y código */
-/* Aislamiento de texto para mejorar la renderización */
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-/* Establece un contexto de apilamiento para el elemento raíz */
 #root, #__next {
   isolation: isolate;
 }
@@ -269,5 +261,3 @@ article {
   letter-spacing: 5px;
   line-height: 50%;
 }
-
-/*# sourceMappingURL=index.css.map */

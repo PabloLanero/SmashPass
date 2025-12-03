@@ -1,0 +1,76 @@
+@media (min-width: 425px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px;
+  }
+
+  .article__landing {
+    width: 50%;
+    height: auto;
+  }
+
+  .article__content {
+    width: 50%;
+    margin-top: 0;
+    text-align: left;
+    padding: 32px 24px;
+  }
+
+  .div__caracteristica {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18px;
+    width: 100%;
+  }
+  .div__caracteristica div {
+    max-width: none;
+  }
+  .div__caracteristica img {
+    width: 75px;
+    height: 75px;
+    flex: 0 0 75px;
+  }
+
+  .article__empezar {
+    width: auto;
+    padding: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  nav {
+    position: relative;
+    padding: 12px 24px;
+  }
+
+  .header__passwords nav,
+  .header__password nav {
+    align-items: center;
+    height: auto;
+    padding: 18px 32px;
+  }
+
+  .main__passwords section article div,
+  .main__password section article div {
+    width: 60%;
+    max-width: 720px;
+  }
+
+  .main__passwords section input {
+    width: 40%;
+  }
+
+  .section__add img {
+    bottom: 40px;
+    right: 40px;
+  }
+
+  h2 { font-size: 40px; }
+  h3 { font-size: 22px; }
+  p { font-size: 18px; }
+}
